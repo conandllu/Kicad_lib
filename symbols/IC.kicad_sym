@@ -9,7 +9,7 @@
     (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mm_ThermalVias" (at 0 -27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -7.62 19.05 0)
+    (property "Datasheet" "https://github.com/conandllu/Kicad_lib/blob/main/Datasheet/WCH_CH335F.PDF" (at 0 -27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPEC" "CH335F,USB2.0 4-Port USB HUB Controller,QFN24_5*5" (at 0 -27.94 0)
