@@ -229,7 +229,7 @@
     (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm" (at 0 -8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 0 0 0)
+    (property "Datasheet" "https://github.com/conandllu/Kicad_lib/blob/main/Datasheet/ADI_LTC4359.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPEC" "LTC4359,Ideal Diode Controller with Reverse Input Protection,0℃~70℃,MSOP-8" (at -1.27 -8.89 0)
