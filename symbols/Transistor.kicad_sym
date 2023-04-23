@@ -44,14 +44,6 @@
       )
       (polyline
         (pts
-          (xy -2.286 0)
-          (xy -5.08 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy -2.286 1.905)
           (xy -2.286 -1.905)
         )
@@ -169,6 +161,14 @@
       )
     )
     (symbol "PXN9R0-30QLJ_1_1"
+      (polyline
+        (pts
+          (xy -2.286 0)
+          (xy -5.08 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
       (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "S" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -181,7 +181,7 @@
         (name "S" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -7.62 0 0) (length 5.08)
+      (pin input line (at -6.35 0 0) (length 3.81)
         (name "G" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
