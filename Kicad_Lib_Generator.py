@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import xlrd
 import datetime
 
@@ -27,7 +29,7 @@ def error(text):
 
 def file_write(file_name, content):
     try:
-        f = open(output_folder + '/' + file_name, 'w')
+        f = open(output_folder + '/' + file_name, 'w', encoding='utf-8')
         f.write(content)
         f.close()
     except FileNotFoundError:
@@ -48,7 +50,7 @@ def file_read(file_name):
 # Open workbook
 info("Try to open workbook - " + lib_name)
 try:
-    wb = xlrd.open_workbook(lib_name)
+    wb = xlrd.open_workbook(lib_name,encoding_override="utf-8")
 except FileNotFoundError:
     error("File not found" + lib_name)
 
@@ -108,7 +110,7 @@ for ws in wb.sheets():
         for header in headers.items():
             key = header[0]
             value = str(ws.cell(row_idx, int(header[1])).value)
-            # info("      " + key + " = " + value)
+            info("      " + key + " = " + value)
             sym_data = sym_data.replace(key, value)
             #dcm_data = dcm_data.replace(key, value)
         info("      Add lib and dcm content to the files - " + ws.name)

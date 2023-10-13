@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20211014) (generator conandllu_kicad_symbol_generator_20230404_23:29:43)
+(kicad_symbol_lib (version 20211014) (generator conandllu_kicad_symbol_generator_20230922_18:37:20)
 
     (symbol "0603B152K500NT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
         

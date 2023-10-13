@@ -1,0 +1,563 @@
+(kicad_symbol_lib (version 20211014) (generator conandllu_kicad_symbol_generator_20230922_18:37:21)
+
+    (symbol "SDCL1005C15NJTDF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "15nH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0402,15nH,±5%,DCR 500mΩ,Ir 300mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0402,15nH,±5%,DCR 500mΩ,Ir 300mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDCL1005C15NJTDF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C27143" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDCL1005C15NJTDF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDCL1005C15NJTDF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "SDFL1608S100KTF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "10uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0603,10uH,±10%,DCR 1.85Ω,Ir 3mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0603,10uH,±10%,DCR 1.85Ω,Ir 3mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDFL1608S100KTF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C1035" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDFL1608S100KTF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDFL1608S100KTF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "SDCL1005C10NJTDF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "10nH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0402,10nH,±5%,DCR 400mΩ,Ir 300mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0402,10nH,±5%,DCR 400mΩ,Ir 300mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDCL1005C10NJTDF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C27147" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDCL1005C10NJTDF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDCL1005C10NJTDF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "SDFL2012S100KTF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "10uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0805,10uH,±10%,DCR 1.15Ω,Ir 15mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0805,10uH,±10%,DCR 1.15Ω,Ir 15mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDFL2012S100KTF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C1046" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDFL2012S100KTF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDFL2012S100KTF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "SDCL1005C3N9STDF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "3.9nH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0402,3.9nH,±0.3nH,DCR 200mΩ,Ir 300mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0402,3.9nH,±0.3nH,DCR 200mΩ,Ir 300mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDCL1005C3N9STDF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C14033" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDCL1005C3N9STDF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDCL1005C3N9STDF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "SDCL1608C68NJTDF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "68nH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "SIGNAL,L0603,68nH,±5%,DCR 850mΩ,Ir 300mA" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "SIGNAL,L0603,68nH,±5%,DCR 850mΩ,Ir 300mA" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "SDCL1608C68NJTDF" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C13415" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Basic" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "SDCL1608C68NJTDF_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "SDCL1608C68NJTDF_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "WPN252010H2R2MT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "2.2uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "USER_Lib:L_Sunlord_WPN252010H" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "POWER,L_SL_WPN2520,2.2uH,±20%,DCR 155mΩ,Isat 1.9A,Irms 1.5A" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "POWER,L_SL_WPN2520,2.2uH,±20%,DCR 155mΩ,Isat 1.9A,Irms 1.5A" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "WPN252010H2R2MT" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C97031" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Extended" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "WPN252010H2R2MT_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "WPN252010H2R2MT_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "WPN252010H4R7MT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "4.7uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "USER_Lib:L_Sunlord_WPN252010H" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "POWER,L_SL_WPN2520,4.7uH,±20%,DCR 276mΩ,Isat 1.3A,Irms 1.1A" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "POWER,L_SL_WPN2520,4.7uH,±20%,DCR 276mΩ,Isat 1.3A,Irms 1.1A" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "WPN252010H4R7MT" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C370607" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Extended" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "WPN252010H4R7MT_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "WPN252010H4R7MT_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "WPN252010H1R0MT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "1uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "USER_Lib:L_Sunlord_WPN252010H" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "POWER,L_SL_WPN2520,1uH,±20%,DCR 76mΩ,Isat 3.1A,Irms 2.5A" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "POWER,L_SL_WPN2520,1uH,±20%,DCR 76mΩ,Isat 3.1A,Irms 2.5A" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "WPN252010H1R0MT" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C97029" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Extended" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "WPN252010H1R0MT_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "WPN252010H1R0MT_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+    (symbol "WPN252010H3R3MT" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+        
+        (property "Reference" "L" (id 0) (at -1.27 -3.81 90) (effects (font (size 1.27 1.27))(justify left)))
+
+        (property "Value" "3.3uH" (id 1) (at 3.81 0 90) (effects (font (size 1.27 1.27))))
+        
+        (property "Footprint" "USER_Lib:L_Sunlord_WPN252010H" (id 2) (at 1.905 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Datasheet" "~" (id 3) (at 3.81 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_keywords" "L Inductor" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+
+        (property "ki_description" "POWER,L_SL_WPN2520,3.3uH,±20%,DCR 235mΩ,Isat 1.6A,Irms 1.2A" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "ki_fp_filters" "L_*" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "SPEC" "POWER,L_SL_WPN2520,3.3uH,±20%,DCR 235mΩ,Isat 1.6A,Irms 1.2A" (id 7) (at 5.715 0 90) (effects (font (size 1.27 1.27)) hide))
+        
+        (property "Manufacturer" "Sunlord" (id 10) (at 7.62 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "Part_Number" "WPN252010H3R3MT" (id 11) (at 9.525 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_Code" "C370600" (id 12) (at 11.43 0 90) (effects (font (size 1.27 1.27)) hide))
+
+        (property "LCSC_LibSource" "Extended" (id 12) (at 13.335 0 90) (effects (font (size 1.27 1.27)) hide))
+        (symbol "WPN252010H3R3MT_0_1"
+            (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+            (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+                (stroke (width 0) (type default))
+                (fill (type none))
+            )
+        )
+        (symbol "WPN252010H3R3MT_1_1"
+            (pin passive line (at 0 3.81 270) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin passive line (at 0 -3.81 90) (length 1.27)
+                (name "~" (effects (font (size 1.27 1.27))))
+                (number "2" (effects (font (size 1.27 1.27))))
+            )
+        )
+    )
+
+
+)
