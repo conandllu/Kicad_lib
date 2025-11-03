@@ -29617,10 +29617,10 @@
 				(end 22.86 -26.67)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "BANK 505 PSGTR"
