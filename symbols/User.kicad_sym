@@ -4376,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USER_Lib:QFN-88_L10.0-W10.0-P0.40-BL-EP6.75"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4385,7 +4385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://github.com/conandllu/Kicad_lib/blob/main/Datasheet/Allwinner_F1C200S.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4394,52 +4394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "F1C100S,ARM926EJ-S CPU core with 32MB of embedded DDR SDRAM,-20℃~85℃,QFN-88_10*10"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPEC" "F1C100S,ARM926EJ-S CPU core with 32MB of embedded DDR SDRAM,-20℃~85℃,QFN-88_10*10"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Allwinner"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" "F1C100S"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Code" "C1511928"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_LibSource" "Extended"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -6314,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USER_Lib:FBGA-200_L15.0-W10.0-P0.8x0.65"
+		(property "Footprint" ""
 			(at 3.302 -99.314 0)
 			(effects
 				(font
@@ -6332,44 +6287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "K4F6E3S4HM,16Gb LPDDR4 SDRAM,64Mb x16DQ x8banks x2channels,-25~85℃,BGA-200_10*15"
+		(property "Description" ""
 			(at -1.778 -95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG"
-			(at 0 13.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" "K4F6E3S4HM-MGCJ"
-			(at 0 13.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Code" "C2842431"
-			(at 0 13.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_LibSource" "Extended"
-			(at 0 13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USER_Lib:FCBGA-483_L15.0-W15.0-P0.65"
+		(property "Footprint" ""
 			(at 1.905 27.305 0)
 			(effects
 				(font
@@ -12392,53 +12311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "X3M,Quad Cortex A53 CPU@1.2GHz,Dual BPU@1GHz 5TOPS,-25℃~85℃,FCBGA-483_15*15"
+		(property "Description" ""
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPEC" "X3M,Quad Cortex A53 CPU@1.2GHz,Dual BPU@1GHz 5TOPS,-25℃~85℃,FCBGA-483_15*15"
-			(at 3.175 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Horizon Robotiics"
-			(at 1.905 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" "X3ME00IBGTMB"
-			(at 1.905 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Code" " "
-			(at 1.905 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_LibSource" " "
-			(at 1.905 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
