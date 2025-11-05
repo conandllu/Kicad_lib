@@ -7577,42 +7577,6 @@
 			(pin bidirectional line
 				(at 26.67 -13.97 180)
 				(length 5.08)
-				(name "DQS1_C_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -16.51 180)
-				(length 5.08)
-				(name "DQS1_T_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -20.32 180)
-				(length 5.08)
 				(name "DQS0_C_A"
 					(effects
 						(font
@@ -7629,7 +7593,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -22.86 180)
+				(at 26.67 -16.51 180)
 				(length 5.08)
 				(name "DQS0_T_A"
 					(effects
@@ -7647,43 +7611,43 @@
 				)
 			)
 			(pin bidirectional line
+				(at 26.67 -20.32 180)
+				(length 5.08)
+				(name "DQS1_C_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -22.86 180)
+				(length 5.08)
+				(name "DQS1_T_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 26.67 -26.67 180)
-				(length 5.08)
-				(name "DQS1_C_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -29.21 180)
-				(length 5.08)
-				(name "DQS1_T_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "W10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 26.67 -33.02 180)
 				(length 5.08)
 				(name "DQS0_C_B"
 					(effects
@@ -7701,7 +7665,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 26.67 -35.56 180)
+				(at 26.67 -29.21 180)
 				(length 5.08)
 				(name "DQS0_T_B"
 					(effects
@@ -7711,6 +7675,42 @@
 					)
 				)
 				(number "W3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -33.02 180)
+				(length 5.08)
+				(name "DQS1_C_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -35.56 180)
+				(length 5.08)
+				(name "DQS1_T_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W10"
 					(effects
 						(font
 							(size 1.27 1.27)
