@@ -4356,12 +4356,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "IC_DDR4"
+	(symbol "IC_DDR4_X16"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 35.56 0)
+			(at 0 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,9 +4411,9 @@
 				)
 			)
 		)
-		(symbol "IC_DDR4_1_0"
+		(symbol "IC_DDR4_X16_1_0"
 			(pin input line
-				(at -20.32 21.59 0)
+				(at -20.32 34.29 0)
 				(length 2.54)
 				(name "A3"
 					(effects
@@ -4431,7 +4431,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 19.05 0)
+				(at -20.32 31.75 0)
 				(length 2.54)
 				(name "A4"
 					(effects
@@ -4449,7 +4449,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 16.51 0)
+				(at -20.32 29.21 0)
 				(length 2.54)
 				(name "A5"
 					(effects
@@ -4467,7 +4467,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 13.97 0)
+				(at -20.32 26.67 0)
 				(length 2.54)
 				(name "A6"
 					(effects
@@ -4485,7 +4485,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 11.43 0)
+				(at -20.32 24.13 0)
 				(length 2.54)
 				(name "A7"
 					(effects
@@ -4503,7 +4503,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 8.89 0)
+				(at -20.32 21.59 0)
 				(length 2.54)
 				(name "A8"
 					(effects
@@ -4521,7 +4521,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 6.35 0)
+				(at -20.32 19.05 0)
 				(length 2.54)
 				(name "A9"
 					(effects
@@ -4539,7 +4539,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 3.81 0)
+				(at -20.32 16.51 0)
 				(length 2.54)
 				(name "A10"
 					(effects
@@ -4557,7 +4557,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 1.27 0)
+				(at -20.32 13.97 0)
 				(length 2.54)
 				(name "A11"
 					(effects
@@ -4575,7 +4575,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -1.27 0)
+				(at -20.32 11.43 0)
 				(length 2.54)
 				(name "A12"
 					(effects
@@ -4593,7 +4593,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -3.81 0)
+				(at -20.32 8.89 0)
 				(length 2.54)
 				(name "A13"
 					(effects
@@ -4611,7 +4611,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -6.35 0)
+				(at -20.32 6.35 0)
 				(length 2.54)
 				(name "BA0"
 					(effects
@@ -4629,7 +4629,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -8.89 0)
+				(at -20.32 3.81 0)
 				(length 2.54)
 				(name "BA1"
 					(effects
@@ -4647,7 +4647,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -11.43 0)
+				(at -20.32 1.27 0)
 				(length 2.54)
 				(name "BG0"
 					(effects
@@ -4665,9 +4665,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -13.97 0)
+				(at -20.32 -1.27 0)
 				(length 2.54)
-				(name "WE_B"
+				(name "~{WE}/A14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4683,27 +4683,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -16.51 0)
+				(at -20.32 -3.81 0)
 				(length 2.54)
-				(name "RAS_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -19.05 0)
-				(length 2.54)
-				(name "CAS_B"
+				(name "~{CAS}/A15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4719,7 +4701,25 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -21.59 0)
+				(at -20.32 -6.35 0)
+				(length 2.54)
+				(name "~{RAS}/A16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -11.43 0)
 				(length 2.54)
 				(name "CK_T"
 					(effects
@@ -4737,7 +4737,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -24.13 0)
+				(at -20.32 -13.97 0)
 				(length 2.54)
 				(name "CK_C"
 					(effects
@@ -4755,7 +4755,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -26.67 0)
+				(at -20.32 -16.51 0)
 				(length 2.54)
 				(name "CKE"
 					(effects
@@ -4773,9 +4773,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -29.21 0)
+				(at -20.32 -21.59 0)
 				(length 2.54)
-				(name "ACT_B"
+				(name "~{ACT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4791,27 +4791,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -31.75 0)
+				(at -20.32 -25.4 0)
 				(length 2.54)
-				(name "TEN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -34.29 0)
-				(length 2.54)
-				(name "ALERT_B"
+				(name "~{ALERT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4827,43 +4809,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -36.83 0)
-				(length 2.54)
-				(name "PAR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -39.37 0)
-				(length 2.54)
-				(name "RESET_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -41.91 0)
+				(at -20.32 -29.21 0)
 				(length 2.54)
 				(name "ODT"
 					(effects
@@ -4881,9 +4827,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -44.45 0)
+				(at -20.32 -33.02 0)
 				(length 2.54)
-				(name "CS_B"
+				(name "~{CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4898,10 +4844,64 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 20.32 29.21 180)
+			(pin input line
+				(at -20.32 -36.83 0)
 				(length 2.54)
-				(name "DQL0"
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -40.64 0)
+				(length 2.54)
+				(name "PAR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -43.18 0)
+				(length 2.54)
+				(name "TEN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 41.91 180)
+				(length 2.54)
+				(name "DQ0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4917,9 +4917,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 26.67 180)
+				(at 20.32 39.37 180)
 				(length 2.54)
-				(name "DQL1"
+				(name "DQ1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4935,9 +4935,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 24.13 180)
+				(at 20.32 36.83 180)
 				(length 2.54)
-				(name "DQL2"
+				(name "DQ2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4953,9 +4953,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 21.59 180)
+				(at 20.32 34.29 180)
 				(length 2.54)
-				(name "DQL3"
+				(name "DQ3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4971,9 +4971,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 19.05 180)
+				(at 20.32 31.75 180)
 				(length 2.54)
-				(name "DQL4"
+				(name "DQ4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4989,9 +4989,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 16.51 180)
+				(at 20.32 29.21 180)
 				(length 2.54)
-				(name "DQL5"
+				(name "DQ5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5007,9 +5007,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 13.97 180)
+				(at 20.32 26.67 180)
 				(length 2.54)
-				(name "DQL6"
+				(name "DQ6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5025,9 +5025,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 11.43 180)
+				(at 20.32 24.13 180)
 				(length 2.54)
-				(name "DQL7"
+				(name "DQ7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5043,9 +5043,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 8.89 180)
+				(at 20.32 21.59 180)
 				(length 2.54)
-				(name "DQU0"
+				(name "DQ8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5061,9 +5061,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 6.35 180)
+				(at 20.32 19.05 180)
 				(length 2.54)
-				(name "DQU1"
+				(name "DQ9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5079,9 +5079,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 3.81 180)
+				(at 20.32 16.51 180)
 				(length 2.54)
-				(name "DQU2"
+				(name "DQ10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5097,9 +5097,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 1.27 180)
+				(at 20.32 13.97 180)
 				(length 2.54)
-				(name "DQU3"
+				(name "DQ11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5115,9 +5115,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -1.27 180)
+				(at 20.32 11.43 180)
 				(length 2.54)
-				(name "DQU4"
+				(name "DQ12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5133,9 +5133,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -3.81 180)
+				(at 20.32 8.89 180)
 				(length 2.54)
-				(name "DQU5"
+				(name "DQ13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5151,9 +5151,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -6.35 180)
+				(at 20.32 6.35 180)
 				(length 2.54)
-				(name "DQU6"
+				(name "DQ14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5169,9 +5169,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -8.89 180)
+				(at 20.32 3.81 180)
 				(length 2.54)
-				(name "DQU7"
+				(name "DQ15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5187,9 +5187,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -11.43 180)
+				(at 20.32 -3.81 180)
 				(length 2.54)
-				(name "DQSL_T"
+				(name "LDQS_T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5205,9 +5205,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -13.97 180)
+				(at 20.32 -6.35 180)
 				(length 2.54)
-				(name "DQSL_C"
+				(name "LDQS_C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5223,9 +5223,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -16.51 180)
+				(at 20.32 -12.7 180)
 				(length 2.54)
-				(name "DQSU_T"
+				(name "UDQS_T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5241,9 +5241,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -19.05 180)
+				(at 20.32 -15.24 180)
 				(length 2.54)
-				(name "DQSU_C"
+				(name "UDQS_C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5259,9 +5259,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -21.59 180)
+				(at 20.32 -22.86 180)
 				(length 2.54)
-				(name "DML_B"
+				(name "~{LDM}/~{LDBI}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5277,9 +5277,9 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -24.13 180)
+				(at 20.32 -25.4 180)
 				(length 2.54)
-				(name "DMU_B"
+				(name "~{UDM}/~{UDBI}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5295,7 +5295,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -26.67 180)
+				(at 20.32 -43.18 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -5313,10 +5313,10 @@
 				)
 			)
 		)
-		(symbol "IC_DDR4_1_1"
+		(symbol "IC_DDR4_X16_1_1"
 			(rectangle
-				(start -17.78 33.02)
-				(end 17.78 -33.02)
+				(start -17.78 44.45)
+				(end 17.78 -44.45)
 				(stroke
 					(width 0)
 					(type default)
@@ -5326,7 +5326,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 29.21 0)
+				(at -20.32 41.91 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -5344,7 +5344,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 26.67 0)
+				(at -20.32 39.37 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -5362,7 +5362,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 24.13 0)
+				(at -20.32 36.83 0)
 				(length 2.54)
 				(name "A2"
 					(effects
