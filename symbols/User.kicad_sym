@@ -5418,42 +5418,6 @@
 				)
 			)
 			(pin free line
-				(at -20.32 26.67 0)
-				(length 2.54)
-				(name "VPP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin free line
-				(at -20.32 24.13 0)
-				(length 2.54)
-				(name "VPP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin free line
 				(at -20.32 17.78 0)
 				(length 2.54)
 				(name "VDDQ"
@@ -5816,6 +5780,42 @@
 			(pin free line
 				(at 20.32 31.75 180)
 				(length 2.54)
+				(name "VPP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 20.32 29.21 180)
+				(length 2.54)
+				(name "VPP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 20.32 17.78 180)
+				(length 2.54)
 				(name "VSSQ"
 					(effects
 						(font
@@ -5832,7 +5832,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 29.21 180)
+				(at 20.32 15.24 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5850,7 +5850,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 26.67 180)
+				(at 20.32 12.7 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5868,7 +5868,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 24.13 180)
+				(at 20.32 10.16 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5886,7 +5886,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 21.59 180)
+				(at 20.32 7.62 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5904,7 +5904,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 19.05 180)
+				(at 20.32 5.08 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5922,7 +5922,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 16.51 180)
+				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5940,7 +5940,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 13.97 180)
+				(at 20.32 0 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5958,7 +5958,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 11.43 180)
+				(at 20.32 -2.54 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5976,7 +5976,7 @@
 				)
 			)
 			(pin free line
-				(at 20.32 8.89 180)
+				(at 20.32 -5.08 180)
 				(length 2.54)
 				(name "VSSQ"
 					(effects
@@ -5993,8 +5993,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 1.27 180)
+			(pin free line
+				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6011,8 +6011,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -1.27 180)
+			(pin free line
+				(at 20.32 -15.24 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6029,8 +6029,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -3.81 180)
+			(pin free line
+				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6047,8 +6047,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -6.35 180)
+			(pin free line
+				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6065,8 +6065,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -8.89 180)
+			(pin free line
+				(at 20.32 -22.86 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6083,8 +6083,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -11.43 180)
+			(pin free line
+				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6101,8 +6101,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -13.97 180)
+			(pin free line
+				(at 20.32 -27.94 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6119,8 +6119,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -16.51 180)
+			(pin free line
+				(at 20.32 -30.48 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -6137,8 +6137,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -19.05 180)
+			(pin free line
+				(at 20.32 -33.02 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
